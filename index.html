@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 400px;
+            width: 350px;
+            box-shadow: 1px 1px 5px black;
+            border-radius: 5px;
+            position: relative;
+            top: 20px;
+            /* background-color: purple; */
+            background: linear-gradient(to right, #00c6ff,violet,pink,#0072ff);
+        }
+        img{
+            border-radius: 50%;
+            position: relative;
+            left: 50px;
+            margin: 20px;
+        }
+        .submain{
+            display: none;
+            /* background-color: purple; */
+            height: 350px;
+            width: 300px;
+            position: relative;
+            bottom: 360px;
+            left: 300px;
+            box-shadow: 1px 1px 5px black;
+            border-radius: 5px;
+            background: conic-gradient(from 0deg, #00c6ff, violet,pink,#0072ff,plum,#00c6ff);
+        }
+        button{
+            background-color: rgb(235, 141, 235);
+            height: 40px;
+            width: 120px;
+            position: relative;
+            left: 150px;
+            font-weight: bolder;
+            font-family: 'popinns',cursive;
+            box-shadow: 2px 2px 2px #ef8aef;
+            color: white;
+
+        }
+        .content:hover .submain{
+            display: block;
+            transition: 2s;
+        }
+        ul li{
+            margin-bottom: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="content" style="width: fit-content; height: 350px;">
+    <div class="main">
+        <img src=C:\Users\vinot\OneDrive\Desktop\t4teq\mann.webp alt="" height="200px" width="200px">
+        <hr>
+        <h2 style="padding-inline: 15px;color: white;">Full Stack Course</h2>
+        <hr>
+        <h4 style="padding-inline: 15px; color: white;">Development Course</h4>
+    </div>
+    <div class="submain">
+        <h2 style="padding-inline: 15px; color: white;"> Full Stack Development Bootcamp</h2>
+        <hr>
+        <h4 style="padding-inline: 15px; margin-block: 0px; color: white;">Course</h4>
+        <ul>
+        <li>MERN STACK WEB DEVELOPMENT</li>
+        <li>MEAN STACK WEB DEVELOPMENT</li>
+        <li>PHP FULL STACK WEB DEVELOPMENT</li>
+        <li>PYTHON AND DJANGO FULL STACK WEB DEVELOPMENT</li>
+        </ul>
+        <button style="height: 30px; width: 100px;">Enquiry Now</button>
+    </div>
+    </div>
+    
+</body>
+</html>
